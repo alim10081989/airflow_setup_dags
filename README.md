@@ -14,5 +14,5 @@ docker-compose up airflow-init
 docker-compose up
 ```
 
-- Access airflow at url ```http://localhost:8080```.
+- Access airflow at url ```http://localhost:8080``` with username and password as ```airflow```
 - Place dag files available under [dags](../dags/) under folder ```{directory}/dags``` and it should be displayed on the airflow ```DAGS``` section.
